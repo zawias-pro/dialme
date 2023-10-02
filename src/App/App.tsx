@@ -1,7 +1,13 @@
 const App = () => {
+  const coffees: unknown[] = []
+
   return (
     <div>
-      start
+      coffees:
+      {coffees.map((coffee) => {
+        return <div />
+      })}
+      <button>+ add</button>
     </div>
   )
 }
